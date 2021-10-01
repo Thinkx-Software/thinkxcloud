@@ -4,7 +4,7 @@ import Routing from './routes/Routing';
 
 function App() {
   return (
-    <div className="app">
+    <div className="bg-gray-100">
       <Routing/>
     </div>
   );
