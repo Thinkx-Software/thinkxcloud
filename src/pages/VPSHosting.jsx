@@ -16,7 +16,7 @@ function VPSHosting() {
                      With our prices you can always find a suitable vps web hosting package.
                      We have an opt out option with money back guarantee within 30 days no other
                      "
-                     image="/assets/vps-Hosting.png"
+                     image="/assets/vps.png"
                     />
                     <Fade left cascade>
                    <TextComponent type="VPS Hosting Services" text="All these come alongside our vps hosting"/>

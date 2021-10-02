@@ -15,7 +15,7 @@ function SharedHosting() {
                      With our prices you can always find a suitable shared web hosting package.
                      We have an opt out option with money back guarantee within 30 days no other
                      "
-                     image="/assets/shared-Hosting.jpg"
+                     image="/assets/shared.jpg"
                     />
                     <Fade left cascade>
                    <TextComponent type="Shared Hosting Services" text="All these come alongside our shared hosting"/>

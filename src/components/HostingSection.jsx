@@ -30,8 +30,8 @@ function HostingSection({type, text, image}) {
                     <div className="flex-0.5 ">
 
                         <img
-                            src={image}
-                            alt="not found"
+                            src={`${image}`}
+                            alt="hosting image"
                             className="m-3 object-contain md:h-1/3 md:w-full ml-4"
                             loading="lazy"
                         />
