@@ -78,9 +78,6 @@ function Homepage() {
 
             {/*vps */}
 
-            {/*fotter */}
-            <Footer />
-            {/*footer */}
         </div>
     )
 }

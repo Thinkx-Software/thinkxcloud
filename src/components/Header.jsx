@@ -41,7 +41,7 @@ function Header() {
                 md:static md:w-auto  md:flex`}>
                     <ul className="md:flex-row md:flex" >
                         <li className="list-none md:mr-5  ">
-                            <Link to="/hosting"
+                            <Link to="/vps"
                             className="flex w-full text-base uppercase cursor-pointer pt-2.5 px-25 hover:text-blue-900"
                             >
                                 Shared Hosting</Link>
@@ -73,10 +73,10 @@ function Header() {
                               hover:bg-blue-700 hover:text-white
                     
                              ">
-                                 <Link to="/"
+                                 <Link to="/login"
                                  
                                  >
-                                     SIGN IN</Link>
+                                     LOGIN</Link>
                              </li>
                              <li className=" list-none md:ml-5 rounded-full   p-2 cursor-pointer text-center w-24 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
