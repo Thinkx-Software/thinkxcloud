@@ -60,7 +60,9 @@ function Homepage() {
 
             {/*pricing */}
             <div className="flex flex-col items-center mb-12">
-                <h2 className="text-3xl text-primary-normal font-bold">Shared Hosting</h2>
+                <h2 className="text-3xl text-primary-normal font-bold">
+                <Link to="/sharedhosting"> Start Hosting Now</Link>
+                </h2>
                 <p className="text-base">Find a suitable package and get started</p>
 
             </div>

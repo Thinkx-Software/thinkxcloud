@@ -17,19 +17,41 @@ function Footer() {
                                     <p className="text-gray-400">
                                         Thinkx Software is a company located in Kampala,
                                         that believes that people have ideas to change the world
-                                           and help them transport their ideas into reality
+                                           and help them transport their ideas into reality.
+                                    </p>
+                                    <p className="text-gray-400">
+                                         <h3 className="text-xl text-white">Contacts</h3>
+                                        <span className="flex items-center ">
+                                        Call: (256) 760137160
+                                        </span>
+                                        <span className="flex items-center ">
+                                        Whatsapp:
+                                       (256) 760137160
+                                        </span>
+                                        
+
                                     </p>
                                     <div className="flex mt-6">
-                                        <i style={{backgroundColor:" #3B5998"}}
-                                            className="flex items-center justify-center h-12 w-12 mr-1 rounded-full fab fill-current
-                                             text-white text-xl fa-facebook-f"></i>
-                                        <i style={{backgroundColor:"#dd4b39"}}
-                                            className="flex items-center justify-center h-12 w-12 mx-1 rounded-full fas fill-current text-white text-xl fa-envelope"></i>
-                                        <i style={{backgroundColor:"#125688"}}
-                                            className="flex items-center justify-center h-12 w-12 mx-1 rounded-full fab fill-current text-white text-xl fa-instagram"></i>
-                                        <i  style={{backgroundColor:"#155ACEE"}}
-                                        //#55ACEE
-                                            className="flex items-center justify-center h-12 w-12 mx-1 rounded-full fab fill-current text-white text-xl fa-twitter"></i>
+                                        <a style={{backgroundColor:" #3B5998"}}
+                                              href="https://www.facebook.com/thinkxsoftware/" target="_blank" 
+                                            className="flex items-center justify-center h-12 w-12 mr-1 rounded-full
+                                             fab fill-current cursor-pointer
+                                             text-white text-xl fa-facebook-f">
+
+                                             </a>
+
+                                        <a style={{backgroundColor:"#dd4b39"}} href="https://mail.google.com/" target="_blank"
+                                            className="flex items-center justify-center h-12 w-12 mx-1 rounded-full cursor-pointer 
+                                            fas fill-current text-white text-xl fa-envelope">
+
+                                            </a>
+
+
+
+                                        <a  style={{backgroundColor:"#125688"}}
+                                       href="https://twitter.com/thinkxcloud" target="_blank" 
+                                            className="flex items-center justify-center h-12 w-12 mx-1 rounded-full fab cursor-pointer 
+                                            fill-current text-white text-xl fa-twitter"></a>
                                     </div>
                                 </div>
                                 <div className="w-full lg:w-1/2 lg:flex lg:px-6 ">
