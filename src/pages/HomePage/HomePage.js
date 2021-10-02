@@ -1,10 +1,11 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import SharedCards from "../../components/SharedCards";
-import Footer from '../../components/Footer';
+import {Link} from "react-router-dom";
 import ChooseUs from '../../components/ChooseUs';
 import Rotate from 'react-reveal/Rotate';
 import VpsCards from '../../components/VpsCards';
+import WorkingSection from '../../components/WorkingSection';
 
 
 
@@ -26,10 +27,13 @@ function Homepage() {
                         </p>
                         <div className="m-4">
                             <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
-                              hover:bg-blue-700 hover:text-white">Start Hosting Now</h1>
+                              hover:bg-blue-700 hover:text-white">
+                                  <Link to="/sharedhosting"> Start Hosting Now</Link>
+                              </h1>
                         </div>
 
                     </div>
+                    
 
                 </Fade>
 
@@ -37,7 +41,7 @@ function Homepage() {
                     <div className="flex-0.5 ">
 
                         <img
-                            src="https://static.live.templately.com/2021/04/a36525c8-vactor-1-1.png"
+                            src="/assets/home.png"
                             alt="not found"
                             className="m-3 object-contain md:h-1/3 md:w-full ml-4"
                             loading="lazy"
@@ -62,6 +66,8 @@ function Homepage() {
             </div>
 
             <SharedCards />
+            
+            <WorkingSection/>
 
             {/*pricing */}
 

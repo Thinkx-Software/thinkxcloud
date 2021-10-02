@@ -22,7 +22,7 @@ function Footer() {
                                     <div className="flex mt-6">
                                         <i style={{backgroundColor:" #3B5998"}}
                                             className="flex items-center justify-center h-12 w-12 mr-1 rounded-full fab fill-current
-                                             text-white text-xl fa-facebook-f">f</i>
+                                             text-white text-xl fa-facebook-f"></i>
                                         <i style={{backgroundColor:"#dd4b39"}}
                                             className="flex items-center justify-center h-12 w-12 mx-1 rounded-full fas fill-current text-white text-xl fa-envelope"></i>
                                         <i style={{backgroundColor:"#125688"}}

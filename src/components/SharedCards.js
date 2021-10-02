@@ -20,13 +20,16 @@ function SharedCards() {
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">24/7 support</li>
 
                     </ul>
-                    <button
-                        className=" uppercase text-center text-sm mt-12 xl:px-24 px-12 sm:px-16 py-2 font-bold text-blue-500
-                         rounded-full "
-                        style={{backgroundImage:"linear-gradient('90deg, #a3a8f0 0%, #696fdd 100%')"}}
+                    <div
+                        className=" uppercase text-center m-2"
                     >
-                        Learn More
-                    </button>
+                                       <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
+                              hover:bg-blue-700 hover:text-white">
+                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=1">
+                                         Check Out
+                                  </a>
+                              </h1>
+                    </div>
                 </article>
                 
                 <Fade left cascade>
@@ -50,11 +53,16 @@ function SharedCards() {
                     
                     <li className="pt-4 pb-4 border-b border-gray-300 font-bold">24/7 support</li>
                     </ul>
-                    <button
-                        className="uppercase text-center text-sm mt-10 xl:px-24 px-12 sm:px-16 py-2 rounded-md font-bold bg-primary-very-light text-primary-blue"
+                    <div
+                        className=" uppercase text-center m-2"
                     >
-                        Learn More
-                    </button>
+                                       <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
+                              hover:bg-blue-700 hover:text-white">
+                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=3">
+                                         Check Out
+                                  </a>
+                              </h1>
+                    </div>
                 </article>
 
                 </Fade>
@@ -78,12 +86,16 @@ function SharedCards() {
                     
                     <li className="pt-4 pb-4 border-b border-gray-300 font-bold">24/7 support</li>
                     </ul>
-                    <button
-                        class="uppercase text-center text-sm mt-12 xl:px-24 px-12 sm:px-16 py-2 rounded-md font-bold text-primary-very-light"
-                        style={{ backgroundImage: "linear-gradient('90deg, #a3a8f0 0%, #696fdd 100%')" }}
+                    <div
+                        className=" uppercase text-center m-2"
                     >
-                        Learn More
-                    </button>
+                                       <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
+                              hover:bg-blue-700 hover:text-white">
+                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=2">
+                                         Check Out
+                                  </a>
+                              </h1>
+                    </div>
                 </article>
                 
 
@@ -107,11 +119,16 @@ function SharedCards() {
                     
                     <li className="pt-4 pb-4 border-b border-gray-300 font-bold">24/7 support</li>
                     </ul>
-                    <button
-                        className="uppercase text-center text-sm mt-10 xl:px-24 px-12 sm:px-16 py-2 rounded-md font-bold bg-primary-very-light text-primary-blue"
+                    <div
+                        className=" uppercase text-center m-2"
                     >
-                        Learn More
-                    </button>
+                                       <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
+                              hover:bg-blue-700 hover:text-white">
+                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=4">
+                                         Check Out
+                                  </a>
+                              </h1>
+                    </div>
                 </article>
 
                    </Fade>

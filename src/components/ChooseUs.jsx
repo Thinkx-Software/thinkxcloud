@@ -5,9 +5,12 @@ import Bounce from 'react-reveal/Bounce';
 function ChooseUs() {
     return (
         <div>
-             <div className="m-4">
-                 <h2 className="text-gray-900 text-center font-bold md:text-7xl text-2xl">Why Choose Us</h2>
+            <Bounce right cascade>
+            <div className="m-4">
+                 <h2 className="text-gray-900 text-center font-bold md:text-9xl text-2xl">Why Choose Us</h2>
              </div>
+            </Bounce>
+
              {/*3 cards */}
              <div className="m-2 flex md:flex-row flex-col ">
                     {/*first card */}

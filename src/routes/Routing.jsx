@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from '../components/Header';
-import {BrowserRouter, Switch, Route} from  "react-router-dom";
+import {BrowserRouter, Switch, Route, Link} from  "react-router-dom";
 import HomePage from "../pages/HomePage/HomePage"
 import Login from '../pages/Auth/Login';
 import Register from '../pages/Auth/Register';
 import Footer from '../components/Footer';
-import { Container } from 'postcss';
-import Contactus from '../pages/contactus/Contactus';
+import SharedHosting from '../pages/HomePage/SharedHosting';
+import VPSHosting from '../pages/VPSHosting';
+
 
 function Routing() {
     return (
@@ -14,15 +15,13 @@ function Routing() {
             <BrowserRouter>
             <Header/>
             <Switch>
-                <Route path="/vps">
-                    <Contactus/>
+                <Route path="/sharedhosting">
+                    <SharedHosting/>
                 </Route>
-                <Route path="/hosting">
-                    <div>hosting</div>
+                <Route path="/vpshosting">
+                  <VPSHosting/>
                 </Route>
-                <Route path="/domain">
-                    <div>domain</div>
-                </Route>
+
                 <Route path="/login" exact>
                     <Login/>
                 </Route>
