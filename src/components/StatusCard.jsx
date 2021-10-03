@@ -3,6 +3,9 @@ import CardBody from '@material-tailwind/react/CardBody';
 import Icon from '@material-tailwind/react/Icon';
 import H6 from '@material-tailwind/react/Heading6';
 import Paragraph from '@material-tailwind/react/Paragraph';
+import Fade from 'react-reveal/Fade';
+
+
 
 
 
@@ -29,7 +32,8 @@ const colors = {
 };
 export default function StatusCard({ color, icon, title, children }) {
     return (
-        <div className="w-full md:w-4/12 px-4 flex justify-center text-center mt-2">
+         <Fade left cascade>
+            <div className="w-full md:w-4/12 px-4 flex justify-center text-center mt-2">
             <Card>
                 <CardBody>
                     <div
@@ -42,5 +46,7 @@ export default function StatusCard({ color, icon, title, children }) {
                 </CardBody>
             </Card>
         </div>
+         </Fade>
+        
     );
 }

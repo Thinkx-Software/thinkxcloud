@@ -7,6 +7,7 @@ import NavbarToggler from '@material-tailwind/react/NavbarToggler';
 import NavbarCollapse from '@material-tailwind/react/NavbarCollapse';
 import Nav from '@material-tailwind/react/Nav';
 import NavLink from '@material-tailwind/react/NavLink';
+import Image from "@material-tailwind/react/Image";
 
 
 export default function DefaultNavbar() {
@@ -22,7 +23,19 @@ export default function DefaultNavbar() {
                         target="_blank"
                         rel="noreferrer"
                     >
+                        <div  className="flex flex-row items-center justify-between">
+                        <Image
+            src="/assets/logo2.jpeg"
+            className="h-12 w-12 mr-2"
+            rounded={true}
+            raised={true}
+            alt="logo"
+        />
+                        
                         <NavbarBrand>Thinkx Cloud</NavbarBrand>
+
+                        </div>
+
                     </a>
                     <NavbarToggler
                         onClick={() => setOpenNavbar(!openNavbar)}
@@ -58,6 +71,14 @@ export default function DefaultNavbar() {
                                 ripple="light"
                             >
                                 VPS Hosting
+                            </NavLink>
+                            <NavLink
+                                href="/ssl"
+                            
+                                rel="noreferrer"
+                                ripple="light"
+                            >
+                                SSL
                             </NavLink>
                             <NavLink
                                 href="https://thinkxcloud.com/billing/cart.php?a=add&domain=register"
