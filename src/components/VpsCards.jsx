@@ -38,10 +38,6 @@ function VpsCards() {
                     </div>
                 </article>
                 
-
-
-            
-
                <article
                     class="bg-white w-4/5 lg:w-custom mb-10 lg:px-4 px-6 py-10 text-center text-primary-dark rounded-lg mx-1"
                 >
@@ -157,3 +153,5 @@ function VpsCards() {
 }
 
 export default VpsCards
+
+
