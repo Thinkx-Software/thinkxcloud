@@ -86,7 +86,7 @@ function SSLCards() {
                         >
                             <span className="text-xl mt-6 mr-1">shs</span
                             ><span className="text-5xl ">140,000</span>
-                            <span className="text-xl mt-6 mr-1">/month</span>
+                            <span className="text-xl mt-6 mr-1">/year</span>
                         </h2>
                         <ul className=" text-sm font-bold">
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">Organization Validation</li>
@@ -124,7 +124,7 @@ function SSLCards() {
                     >
                         <span className="text-xl mt-6 mr-1">shs</span
                         ><span className="text-5xl ">320,000</span>
-                        <span className="text-xl mt-6 mr-1">/month</span>
+                        <span className="text-xl mt-6 mr-1">/year</span>
                     </h2>
                     <ul className=" text-sm font-bold">
                     <li className="pt-4 pb-4 border-b border-gray-300 font-bold">Domain Validation</li>
