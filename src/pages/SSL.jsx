@@ -10,7 +10,7 @@ function SSL() {
     return (
         <div>
                      
-                     <div className="flex md:flex-row items-center md:justify-evenly m-4 flex-col">
+                     <div className="flex md:flex-row items-center md:justify-evenly m-4 flex-col z-5">
                 <Fade left cascade>
                     <div className="flex-0.5 mx-4">
                         <p className="text-2xl md:ml-4 text-left p-2 mb-2">WE PROVIDE</p>

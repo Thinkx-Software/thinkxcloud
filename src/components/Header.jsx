@@ -14,7 +14,7 @@ export default function DefaultNavbar() {
     const [openNavbar, setOpenNavbar] = useState(false);
 
     return (
-        <div className="sticky top-0 left-0 shadow-md z-50">
+        <div className="sticky top-0 left-0 shadow-md z-100">
              <Navbar color="blueGray" navbar>
             <NavbarContainer>
                 <NavbarWrapper>

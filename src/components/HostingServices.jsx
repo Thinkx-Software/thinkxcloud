@@ -5,7 +5,7 @@ import StatusCard from './StatusCard'
 function HostingServices({data}) {
     return (
          <div>
-             <div className="flex flex-wrap relative z-50 ">
+             <div className="flex flex-wrap relative z-5 ">
             {
                 data.map((item, index)=><StatusCard
                 key={index}
