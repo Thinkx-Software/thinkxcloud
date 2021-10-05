@@ -30,7 +30,9 @@ function SSLCards() {
                     >
                                        <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
-                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=10">
+                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=10"
+                                  target="_blank"
+                                  >
                                          Check Out
                                   </a>
                               </h1>
@@ -63,7 +65,9 @@ function SSLCards() {
                     >
                                        <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
-                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=11">
+                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=11"
+                                  target="_blank"
+                                  >
                                          Check Out
                                   </a>
                               </h1>
@@ -99,7 +103,9 @@ function SSLCards() {
                         >
                                            <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                                   hover:bg-blue-700 hover:text-white">
-                                      <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=12">
+                                      <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=12"
+                                      target="_blank"
+                                      >
                                              Check Out
                                       </a>
                                   </h1>
@@ -138,7 +144,9 @@ function SSLCards() {
                     >
                                        <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
-                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=13">
+                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=13"
+                                  target="_blank"
+                                  >
                                          Check Out
                                   </a>
                               </h1>

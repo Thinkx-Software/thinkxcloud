@@ -29,7 +29,9 @@ function VpsCards() {
                     >
                                        <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
-                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=confproduct&i=0">
+                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=confproduct&i=0"
+                                  target="_blank"
+                                  >
                                          Check Out
                                   </a>
                               </h1>
@@ -63,7 +65,9 @@ function VpsCards() {
                     >
                                        <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
-                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=confproduct&i=1">
+                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=confproduct&i=1"
+                                  target="_blank"
+                                  >
                                          Check Out
                                   </a>
                               </h1>
@@ -98,7 +102,9 @@ function VpsCards() {
                         >
                                            <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                                   hover:bg-blue-700 hover:text-white">
-                                      <a href= "https://thinkxcloud.com/billing/cart.php?a=confproduct&i=2">
+                                      <a href= "https://thinkxcloud.com/billing/cart.php?a=confproduct&i=2"
+                                      target="_blank"
+                                      >
                                              Check Out
                                       </a>
                                   </h1>
@@ -134,7 +140,9 @@ function VpsCards() {
                     >
                                        <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
-                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=confproduct&i=3">
+                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=confproduct&i=3"
+                                  target="_blank"
+                                  >
                                          Check Out
                                   </a>
                               </h1>
