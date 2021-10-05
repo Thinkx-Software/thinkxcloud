@@ -30,7 +30,7 @@ function SSLCards() {
                     >
                                        <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
-                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=confproduct&i=0">
+                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=10">
                                          Check Out
                                   </a>
                               </h1>
@@ -63,7 +63,7 @@ function SSLCards() {
                     >
                                        <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
-                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=confproduct&i=1">
+                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=11">
                                          Check Out
                                   </a>
                               </h1>
@@ -99,7 +99,7 @@ function SSLCards() {
                         >
                                            <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                                   hover:bg-blue-700 hover:text-white">
-                                      <a href= "https://thinkxcloud.com/billing/cart.php?a=confproduct&i=2">
+                                      <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=12">
                                              Check Out
                                       </a>
                                   </h1>
@@ -138,7 +138,7 @@ function SSLCards() {
                     >
                                        <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
-                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=confproduct&i=3">
+                                  <a href= "https://thinkxcloud.com/billing/cart.php?a=add&pid=13">
                                          Check Out
                                   </a>
                               </h1>
