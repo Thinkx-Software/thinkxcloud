@@ -20,7 +20,7 @@ export default function DefaultNavbar() {
                 <NavbarContainer>
                     <NavbarWrapper>
                         <a
-                            href="https://www.thinkxsoftware.com"
+                            href="/"
                             target="_blank"
                             rel="noreferrer"
                         >
