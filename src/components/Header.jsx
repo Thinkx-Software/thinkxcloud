@@ -94,31 +94,33 @@ export default function DefaultNavbar() {
                                     Domain
                                 </a>
 
-                                <a
-                                    href="https://thinkxcloud.com/billing/index.php?rp=/login"
-                                    target="_blank"
-                                    rel="noreferrer"
+                                <h2
+
                                 >
-                                    <h2
+                                    <a
+                                        href="https://thinkxcloud.com/billing/index.php?rp=/login"
+                                        target="_blank"
+
                                         className=" md:mr-5 rounded-full   p-2 cursor-pointer text-center w-24 text-gray-900 bg-gray-200
                                hover:bg-blue-700 hover:text-white"
                                     >
                                         LOGIN
-                                    </h2>
-                                </a>
+                                    </a>
+                                </h2>
 
-                                <a
-                                    href="https://thinkxcloud.com/billing/register.php"
-                                    target="_blank"
+                                <h2
+
 
                                 >
-                                    <h2
+                                    <a
+                                        href="https://thinkxcloud.com/billing/register.php"
+                                        target="_blank"
                                         className=" md:mr-5 rounded-full   p-2 cursor-pointer text-center w-24 text-gray-900 bg-gray-200
                                hover:bg-blue-700 hover:text-white"
                                     >
                                         SIGN UP
-                                    </h2>
-                                </a>
+                                    </a>
+                                </h2>
                             </div>
                         </Nav>
                     </NavbarCollapse>
