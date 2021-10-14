@@ -26,8 +26,8 @@ export default function DefaultNavbar() {
             <Navbar color="blueGray" navbar>
                 <NavbarContainer>
                     <NavbarWrapper>
-                        <a
-                            href="/"
+                        <NavLink
+                            to="/"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -42,7 +42,7 @@ export default function DefaultNavbar() {
 
                                 <NavbarBrand>Thinkx Cloud</NavbarBrand>
                             </div>
-                        </a>
+                        </NavLink>
                         <NavbarToggler
                             onClick={() => setOpenNavbar(!openNavbar)}
                             color="white"
@@ -84,42 +84,47 @@ export default function DefaultNavbar() {
                                     SSL
                                 </Link>
 
-                                <a
+                                <NavLink
 
                                     href='https://thinkxcloud.com/billing/register.php'
                                     target="_blank"
+                                    rel="noreferrer"
                                     className="text-white px-3"
 
                                 >
                                     Domain
-                                </a>
+                                </NavLink>
 
                                 <h2
 
                                 >
-                                    <a
+                                    <NavLink
+
                                         href="https://thinkxcloud.com/billing/index.php?rp=/login"
+                                        target="_blank"
+                                        rel="noreferrer"
                                         target="_blank"
 
                                         className=" md:mr-5 rounded-full   p-2 cursor-pointer text-center w-24 text-gray-900 bg-gray-200
                                hover:bg-blue-700 hover:text-white"
                                     >
                                         LOGIN
-                                    </a>
+                                    </NavLink>
                                 </h2>
 
                                 <h2
 
 
                                 >
-                                    <a
+                                    <NavLink
                                         href="https://thinkxcloud.com/billing/register.php"
                                         target="_blank"
+                                        rel="noreferrer"
                                         className=" md:mr-5 rounded-full   p-2 cursor-pointer text-center w-24 text-gray-900 bg-gray-200
                                hover:bg-blue-700 hover:text-white"
                                     >
                                         SIGN UP
-                                    </a>
+                                    </NavLink>
                                 </h2>
                             </div>
                         </Nav>
