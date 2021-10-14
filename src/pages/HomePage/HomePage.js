@@ -1,17 +1,51 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import SharedCards from "../../components/SharedCards";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import ChooseUs from '../../components/ChooseUs';
 import Rotate from 'react-reveal/Rotate';
 import VpsCards from '../../components/VpsCards';
 import WorkingSection from '../../components/WorkingSection';
+import { useMediaQuery } from "react-responsive";
+import Header from '../../components/Header/Header';
+import HeaderMobile from '../../components/Header/HeaderMobile';
 
 
 
 function Homepage() {
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(min-device-width: 1224px)'
+    })
+    const isBigScreen = useMediaQuery({ query: '(min-device-width: 1824px)' })
+    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+    const isTabletOrMobileDevice = useMediaQuery({
+        query: '(max-device-width: 1224px)'
+    })
+
+    useEffect(() => {
+        if (isTabletOrMobile || isTabletOrMobileDevice) {
+            setIsMobile(true)
+        }
+        else {
+            setIsMobile(false)
+        }
+
+
+    }, [isDesktopOrLaptop, isBigScreen, isTabletOrMobileDevice, isTabletOrMobile])
+
+    //create mobile view
+    const [isMobile, setIsMobile] = useState(false)
+
+    //add clickable buttons
+    const [toggleMenu, setToggleMenu] = useState(true)
+
+
     return (
         <div >
+            {
+                isMobile ? <HeaderMobile toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
+                    : <Header />
+            }
 
             {/*section */}
 
@@ -28,12 +62,12 @@ function Homepage() {
                         <div className="m-4">
                             <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
-                                  <Link to="/sharedhosting"> Start Hosting Now</Link>
-                              </h1>
+                                <Link to="/sharedhosting"> Start Hosting Now</Link>
+                            </h1>
                         </div>
 
                     </div>
-                    
+
 
                 </Fade>
 
@@ -61,15 +95,15 @@ function Homepage() {
             {/*pricing */}
             <div className="flex flex-col items-center mb-12">
                 <h2 className="text-3xl text-primary-normal font-bold">
-                <Link to="/sharedhosting"> Start Hosting Now</Link>
+                    <Link to="/sharedhosting"> Start Hosting Now</Link>
                 </h2>
                 <p className="text-base">Find a suitable package and get started</p>
 
             </div>
 
             <SharedCards />
-            
-            <WorkingSection/>
+
+            <WorkingSection />
 
             {/*pricing */}
 
@@ -82,7 +116,7 @@ function Homepage() {
                 </div>
 
             </Rotate>
-            <VpsCards/>
+            <VpsCards />
 
             {/*vps */}
 

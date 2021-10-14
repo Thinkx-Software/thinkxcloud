@@ -1,5 +1,6 @@
-import React from 'react';
-import Header from '../components/Header';
+import React, { useState, useEffect } from 'react';
+import Header from '../components/Header/Header';
+import MobileHeader from '../components/Header/HeaderMobile';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import HomePage from '../pages/HomePage/HomePage';
 import Footer from '../components/Footer';
@@ -7,12 +8,15 @@ import SharedHosting from '../pages/HomePage/SharedHosting';
 import VPSHosting from '../pages/VPSHosting';
 import SSL from '../pages/SSL';
 import NotFound from '../pages/NotFound';
+import { useMediaQuery } from "react-responsive";
 
 function Routing() {
+
     return (
         <div>
             <BrowserRouter>
-                <Header />
+
+
                 <Switch>
                     <Route path="/" exact>
                         <HomePage />

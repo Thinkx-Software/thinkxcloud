@@ -1,0 +1,138 @@
+.mobile__positionedTop{
+  background-color:#111;
+  width:100%;
+  height: 8vh;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+
+}
+.mobile{
+    background-color:#111;
+    width:100%;
+    height: 12vh;
+    
+  }
+  .mobile__image{
+    object-fit: contain;
+    max-width: 50px;
+    max-height: 30vh;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 10px;
+  
+  }
+  .mobile__logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+  }
+  .mobile__fixedRight{
+    /*position: fixed;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff !important;
+    /*top:0.5rem;*/
+    /*right: 0.5rem;*/
+  }
+  
+  .menu__ul{
+    display: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+  }
+  .menu__ul>li{
+    list-style: none;
+  }
+  .mobile__icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    margin-right: 20px;
+   
+  }
+  .mobile__icons>a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    background-color: transparent;
+    font-size:medium;
+    margin: 20px 20px;
+    transition: all 1s ease-in-out;
+    
+  }
+  
+  /* .mobile__icons:hover{
+    font-weight: bolder;
+    transform: scale(0.9);
+    color: gold;
+  } */
+  .mobile__icons>a:hover{
+    text-decoration: none;
+  }
+  .menu__hide{
+    display: none;
+    color: gold;
+  }
+
+  
+  .mobile__show{
+    background-color:#fff;
+    position: fixed;
+    top:0;
+    left:0;
+    width:70%;
+    height: 100vh;
+    z-index: 100;
+    box-shadow: rgba(27, 31, 32, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+  
+
+  }
+  .menu{
+    position: fixed;
+    top:20%;
+    left:10%;
+    color:#1c478e;
+    margin-left:-2%;
+  
+  }
+  .mobile__logo_fixed{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px;
+    top:2%;
+    left:20%;
+
+  }
+  .mobile__fixedLeft{
+    position:fixed;
+    top:5%;
+    left:4%;
+    font-size: small;
+  }
+  .mobile__blueImage{
+      object-fit: contain;
+      width: 70px;
+      height: 70px;
+      margin:0 10px;
+      border-radius: 50%;
+    
+  }
+  .mobile__bumu{
+    margin-right: 10px;
+    margin-top: 3px;
+  }
+
+  .menu__iconColor{
+    color: #fff !important;
+    margin-top: 10px !important;
+  }
