@@ -26,23 +26,19 @@ export default function DefaultNavbar() {
             <Navbar color="blueGray" navbar>
                 <NavbarContainer>
                     <NavbarWrapper>
-                        <NavLink
-                            to="/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <div className="flex flex-row items-center justify-between">
-                                <Image
-                                    src="/assets/logo2.jpeg"
-                                    className="h-12 w-12 mr-2"
-                                    rounded={true}
-                                    raised={true}
-                                    alt="logo"
-                                />
 
-                                <NavbarBrand>Thinkx Cloud</NavbarBrand>
-                            </div>
-                        </NavLink>
+                        <div className="flex flex-row items-center justify-between">
+                            <Image
+                                src="/assets/logo2.jpeg"
+                                className="h-12 w-12 mr-2"
+                                rounded={true}
+                                raised={true}
+                                alt="logo"
+                            />
+
+                            <NavbarBrand>Thinkx Cloud</NavbarBrand>
+                        </div>
+
                         <NavbarToggler
                             onClick={() => setOpenNavbar(!openNavbar)}
                             color="white"
@@ -86,7 +82,7 @@ export default function DefaultNavbar() {
 
                                 <NavLink
 
-                                    href='https://thinkxcloud.com/billing/register.php'
+                                    to='https://thinkxcloud.com/billing/register.php'
                                     target="_blank"
                                     rel="noreferrer"
                                     className="text-white px-3"
@@ -96,32 +92,33 @@ export default function DefaultNavbar() {
                                 </NavLink>
 
                                 <h2
+                                    className=" md:mr-5 rounded-full   p-2 cursor-pointer text-center w-24 text-gray-900 bg-gray-200
+                                                                        hover:bg-blue-700 hover:text-white"
 
                                 >
                                     <NavLink
 
-                                        href="https://thinkxcloud.com/billing/index.php?rp=/login"
+                                        to="https://thinkxcloud.com/billing/index.php?rp=/login"
                                         target="_blank"
                                         rel="noreferrer"
                                         target="_blank"
 
-                                        className=" md:mr-5 rounded-full   p-2 cursor-pointer text-center w-24 text-gray-900 bg-gray-200
-                               hover:bg-blue-700 hover:text-white"
+
                                     >
                                         LOGIN
                                     </NavLink>
                                 </h2>
 
                                 <h2
-
+                                    className=" md:mr-5 rounded-full   p-2 cursor-pointer text-center w-24 text-gray-900 bg-gray-200
+                                                                          hover:bg-blue-700 hover:text-white"
 
                                 >
                                     <NavLink
-                                        href="https://thinkxcloud.com/billing/register.php"
+                                        to="https://thinkxcloud.com/billing/register.php"
                                         target="_blank"
                                         rel="noreferrer"
-                                        className=" md:mr-5 rounded-full   p-2 cursor-pointer text-center w-24 text-gray-900 bg-gray-200
-                               hover:bg-blue-700 hover:text-white"
+
                                     >
                                         SIGN UP
                                     </NavLink>
