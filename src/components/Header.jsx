@@ -89,7 +89,7 @@ export default function DefaultNavbar() {
                                     href='https://thinkxcloud.com/billing/register.php'
                                     target="_blank"
                                     className="text-white px-3"
-                                    rel="noreferrer"
+
                                 >
                                     Domain
                                 </a>
@@ -110,7 +110,7 @@ export default function DefaultNavbar() {
                                 <a
                                     href="https://thinkxcloud.com/billing/register.php"
                                     target="_blank"
-                                    rel="noreferrer"
+
                                 >
                                     <h2
                                         className=" md:mr-5 rounded-full   p-2 cursor-pointer text-center w-24 text-gray-900 bg-gray-200
