@@ -8,11 +8,18 @@ import NavbarCollapse from '@material-tailwind/react/NavbarCollapse';
 import Nav from '@material-tailwind/react/Nav';
 import NavLink from '@material-tailwind/react/NavLink';
 import Image from '@material-tailwind/react/Image';
+import { useHistory } from 'react-router-dom';
+
 
 import { Link } from 'react-router-dom';
 
 export default function DefaultNavbar() {
     const [openNavbar, setOpenNavbar] = useState(false);
+
+    const history = useHistory();
+    const push = (url) => {
+        history.push(url)
+    }
 
     return (
         <div className=" shadow-md ">
@@ -77,17 +84,18 @@ export default function DefaultNavbar() {
                                     SSL
                                 </Link>
 
-                                <Link
-                                    to="/billing/cart.php?a=add&domain=register"
+                                <a
+
+                                    href='https://thinkxcloud.com/billing/register.php'
                                     target="_blank"
-                                    rel="noreferrer"
                                     className="text-white px-3"
+                                    rel="noreferrer"
                                 >
                                     Domain
-                                </Link>
+                                </a>
 
-                                <Link
-                                    to="https://thinkxcloud.com/billing/index.php?rp=/login"
+                                <a
+                                    href="https://thinkxcloud.com/billing/index.php?rp=/login"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -97,10 +105,10 @@ export default function DefaultNavbar() {
                                     >
                                         LOGIN
                                     </h2>
-                                </Link>
+                                </a>
 
-                                <Link
-                                    to="https://thinkxcloud.com/billing/register.php"
+                                <a
+                                    href="https://thinkxcloud.com/billing/register.php"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -110,7 +118,7 @@ export default function DefaultNavbar() {
                                     >
                                         SIGN UP
                                     </h2>
-                                </Link>
+                                </a>
                             </div>
                         </Nav>
                     </NavbarCollapse>
