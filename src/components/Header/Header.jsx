@@ -27,17 +27,17 @@ const Header = () => {
 
           </li>
           <li>
-             <Link to="/vpshosting">VPS Hosting</Link>
+            <Link to="/vpshosting">VPS Hosting</Link>
 
           </li>
           <li>
-            <Link to="ssl">SSL</Link>
+            <Link to="/ssl">SSL</Link>
 
           </li>
           <li>
             <a href="https://thinkxcloud.com/billing/register.php"
-              target="_blank"
-              rel="noreferrer"
+
+
             >
               Domain
             </a>
@@ -45,16 +45,15 @@ const Header = () => {
           </li>
           <li>
             <a href="https://thinkxcloud.com/billing/index.php?rp=/login"
-              target="_blank"
-              rel="noreferrer"
+
+
             >
               Login
             </a>
           </li>
           <li>
             <a href="https://thinkxcloud.com/billing/register.php"
-              target="_blank"
-              rel="noreferrer"
+
             >
               Register
             </a>

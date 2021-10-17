@@ -73,8 +73,7 @@ const HeaderMobile = ({ toggleMenu, setToggleMenu }) => {
               <div className="mobile__icons">
                 <AccountCircleIcon />
                 <a href="https://thinkxcloud.com/billing/index.php?rp=/login"
-                  target="_blank"
-                  rel="noreferrer"
+
                 >
                   Login
                 </a>
@@ -85,8 +84,7 @@ const HeaderMobile = ({ toggleMenu, setToggleMenu }) => {
               <div className="mobile__icons">
                 <AccountCircleIcon fontSize="default" />
                 <a href="https://thinkxcloud.com/billing/register.php"
-                  target="_blank"
-                  rel="noreferrer"
+
                 >
                   Register
                 </a>
