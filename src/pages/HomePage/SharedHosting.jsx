@@ -37,7 +37,10 @@ function SharedHosting() {
     const [toggleMenu, setToggleMenu] = useState(true)
     return (
         <div>
-            s
+            {
+                isMobile ? <HeaderMobile toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
+                    : <Header />
+            }
             <HostingSection type="Shared Hosting"
                 text="
                      We make it  easy to lanch your site with great customer support.
