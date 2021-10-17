@@ -48,7 +48,7 @@ const HeaderMobile = ({ toggleMenu, setToggleMenu }) => {
             <li>
               <div className="mobile__icons">
                 <ViewListIcon />
-                <a rel="noreferrer" href="/sharedhosting" target="_blank">Shared Hosting</a>
+                <Link to="/sharedhosting" >Shared Hosting</Link>
 
               </div>
 
@@ -56,14 +56,14 @@ const HeaderMobile = ({ toggleMenu, setToggleMenu }) => {
             <li>
               <div className="mobile__icons">
                 <ViewListIcon />
-                <a href="/vpshosting" rel="noreferrer" target="_blank">VPS Hosting</a>
+                <Link to="/vpshosting" >VPS Hosting</Link>
               </div>
 
             </li>
             <li>
               <div className="mobile__icons">
                 <ViewListIcon />
-                <a rel="noreferrer" href="/ssl" target="_blank">SSL</a>
+                <Link to="/ssl" >SSL</Link>
 
               </div>
 

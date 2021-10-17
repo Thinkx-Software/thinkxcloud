@@ -57,7 +57,7 @@ function SharedCards() {
                     <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
                         <a href="https://thinkxcloud.com/billing/cart.php?a=add&pid=2"
-                            target="_blank"
+
                         >
                             Check Out
                         </a>
@@ -93,7 +93,7 @@ function SharedCards() {
                         <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
                             <a href="https://thinkxcloud.com/billing/cart.php?a=add&pid=3"
-                                target="_blank"
+
                             >
                                 Check Out
                             </a>
@@ -131,7 +131,7 @@ function SharedCards() {
                         <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                               hover:bg-blue-700 hover:text-white">
                             <a href="https://thinkxcloud.com/billing/cart.php?a=add&pid=4"
-                                target="_blank"
+
 
                             >
                                 Check Out

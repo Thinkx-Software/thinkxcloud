@@ -19,16 +19,20 @@ const Header = () => {
       <div className="header__right">
         <ul className="header__options">
           <li>
-            <a href="/" target="_blank" rel="noreferrer">Home</a>
+            <Link to="/">Home</Link>
+
           </li>
           <li>
-            <a href="/sharedhosting" rel="noreferrer" target="_blank">Shared Hosting</a>
+            <Link to="/sharedhosting"> Shared Hosting</Link>
+
           </li>
           <li>
-            <a href="/vpshosting" rel="noreferrer" target="_blank">VPS Hosting</a>
+             <Link to="/vpshosting">VPS Hosting</Link>
+
           </li>
           <li>
-            <a href="/ssl" rel="noreferrer" target="_blank">SSL</a>
+            <Link to="ssl">SSL</Link>
+
           </li>
           <li>
             <a href="https://thinkxcloud.com/billing/register.php"
