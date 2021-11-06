@@ -13,7 +13,7 @@ const Header = () => {
         />
         <div className="logo__content">
           <h3>Thinkx Cloud</h3>
-          <p>Always here to deliver</p>
+          <p></p>
         </div>
       </div>
       <div className="header__right">
@@ -35,11 +35,11 @@ const Header = () => {
 
           </li>
           <li>
-            <a href="https://thinkxcloud.com/billing/register.php"
+            <a href="https://thinkxcloud.com/billing/cart.php?a=add&domain=registers"
 
 
             >
-              Domain
+              Domains
             </a>
 
           </li>

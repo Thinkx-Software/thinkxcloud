@@ -5,8 +5,10 @@ import CancelIcon from '@material-ui/icons/Cancel';
 import IconButton from '@material-ui/core/IconButton';
 import { Link } from "react-router-dom";
 import HomeIcon from '@material-ui/icons/Home';
-import ViewListIcon from '@material-ui/icons/ViewList';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import DomainIcon from '@material-ui/icons/Domain';
+import StorageIcon from '@material-ui/icons/Storage';
+import LockIcon from '@material-ui/icons/Lock';
 
 const HeaderMobile = ({ toggleMenu, setToggleMenu }) => {
   //fix the header
@@ -47,7 +49,7 @@ const HeaderMobile = ({ toggleMenu, setToggleMenu }) => {
             </li>
             <li>
               <div className="mobile__icons">
-                <ViewListIcon />
+                < StorageIcon />
                 <Link to="/sharedhosting" >Shared Hosting</Link>
 
               </div>
@@ -55,20 +57,31 @@ const HeaderMobile = ({ toggleMenu, setToggleMenu }) => {
             </li>
             <li>
               <div className="mobile__icons">
-                <ViewListIcon />
+                < StorageIcon />
                 <Link to="/vpshosting" >VPS Hosting</Link>
               </div>
 
             </li>
             <li>
               <div className="mobile__icons">
-                <ViewListIcon />
+                <LockIcon />
                 <Link to="/ssl" >SSL</Link>
 
               </div>
 
             </li>
 
+            <li>
+              <div className="mobile__icons">
+              <DomainIcon />
+                <a href="https://thinkxcloud.com/billing/cart.php?a=add&domain=register"
+
+                >
+                  Domains
+                </a>
+              </div>
+
+            </li>
             <li>
               <div className="mobile__icons">
                 <AccountCircleIcon />

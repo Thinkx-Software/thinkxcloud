@@ -8,6 +8,7 @@ import { vpsdata } from '../fakeData/vpsdata'
 import HeaderMobile from '../components/Header/HeaderMobile'
 import Header from '../components/Header/Header'
 import { useMediaQuery } from "react-responsive";
+import {Helmet} from "react-helmet";
 
 function VPSHosting() {
     const isDesktopOrLaptop = useMediaQuery({
@@ -37,6 +38,9 @@ function VPSHosting() {
     const [toggleMenu, setToggleMenu] = useState(true)
     return (
         <div>
+                         <Helmet> <title>VPS - thinkxcloud.com</title>
+      <meta name="description" content="host your app or website on our vps that is reliable" />
+    </Helmet>
             {
                 isMobile ? <HeaderMobile toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
                     : <Header />

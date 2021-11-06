@@ -8,6 +8,7 @@ import SSLCards from '../components/SSLCards';
 import { useMediaQuery } from "react-responsive";
 import HeaderMobile from '../components/Header/HeaderMobile';
 import Header from '../components/Header/Header';
+import {Helmet} from "react-helmet";
 
 function SSL() {
     const isDesktopOrLaptop = useMediaQuery({
@@ -37,6 +38,9 @@ function SSL() {
     const [toggleMenu, setToggleMenu] = useState(true)
     return (
         <div>
+             <Helmet> <title>SSL - thinkxcloud.com</title>
+      <meta name="description" content="Our ssl we secure your website visotrs from man in the middle attack, Leading SSL providers trusted" />
+    </Helmet>
             {
                 isMobile ? <HeaderMobile toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
                     : <Header />

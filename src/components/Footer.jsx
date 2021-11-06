@@ -12,15 +12,17 @@ function Footer() {
                                 <div className="w-full mb-12 lg:mb-0 lg:w-1/2">
                                     <h2 style={{ fontfamily: 'Baloo Tamma 2' }}
                                         className="font-bold text-xl text-gray-100 mb-4">
-                                        <a href="https://www.thinkxsoftware.com" target="_blank" className="cursor-pointer" >Thinkx Software</a>
+                                        <a href="https://www.thinkxsoftware.com" target="_blank" className="cursor-pointer" >
+                                            Thinkx Cloud</a>
                                     </h2>
                                     <p className="text-gray-400">
-                                        Thinkx Software is a company located in Kampala,
-                                        that believes that people have ideas to change the world
-                                        and help them transport their ideas into reality.
+                                        Thinkx Cloud is the leading hosting and cloud service provider in uganda, Customer satsfaction is our goal.
                                     </p>
                                     <p className="text-gray-400">
-                                        <h3 className="text-xl text-white">Contacts</h3>
+                                        <h3 className="text-xl text-white">Address</h3>
+                                        <h3> Kyaliwajala Naalya Road, 500M off Naalya Round About, Kampala </h3>
+                                        <br />
+                                        
                                         <span className="flex items-center ">
                                             Call: (256) 760137160
                                         </span>
@@ -40,7 +42,7 @@ function Footer() {
 
                                         </a>
 
-                                        <a style={{ backgroundColor: "#dd4b39" }} href="https://mail.google.com/" target="_blank"
+                                        <a style={{ backgroundColor: "#dd4b39" }} href="mailto:info@thinkxsoftware.com" target="_blank"
                                             className="flex items-center justify-center h-12 w-12 mx-1 rounded-full cursor-pointer 
                                             fas fill-current text-white text-xl fa-envelope">
 

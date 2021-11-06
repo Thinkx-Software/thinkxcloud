@@ -7,7 +7,8 @@ import { sharedHostingData } from '../../fakeData/sharedHosting'
 import Fade from 'react-reveal/Fade';
 import HeaderMobile from '../../components/Header/HeaderMobile'
 import Header from '../../components/Header/Header';
-import { useMediaQuery } from "react-responsive"
+import { useMediaQuery } from "react-responsive";
+import {Helmet} from "react-helmet";
 
 function SharedHosting() {
     const isDesktopOrLaptop = useMediaQuery({
@@ -37,6 +38,9 @@ function SharedHosting() {
     const [toggleMenu, setToggleMenu] = useState(true)
     return (
         <div>
+                        <Helmet> <title>Sshared Hosting - thinkxcloud.com</title>
+      <meta name="description" content="From as low as UGX 30,000 a year host with us" />
+    </Helmet>
             {
                 isMobile ? <HeaderMobile toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
                     : <Header />
