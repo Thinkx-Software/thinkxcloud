@@ -38,7 +38,7 @@ function SharedHosting() {
     const [toggleMenu, setToggleMenu] = useState(true)
     return (
         <div>
-                        <Helmet> <title>Sshared Hosting - thinkxcloud.com</title>
+                        <Helmet> <title>Shared Hosting - thinkxcloud.com</title>
       <meta name="description" content="From as low as UGX 30,000 a year host with us" />
     </Helmet>
             {
