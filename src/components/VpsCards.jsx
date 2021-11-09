@@ -35,7 +35,7 @@ function VpsCards() {
                                   >
                                          Check Out
                                   </a> */}
-                        <a href="https://thinkxcloud.com/billing/cart.php?a=confproduct&i=0" >
+                        <a href="https://thinkxcloud.com/billing/index.php?rp=/store/vps-hosting" >
                             Check Out
                         </a>
                     </h1>
@@ -70,7 +70,7 @@ function VpsCards() {
                                   >
                                          Check Out
                                   </a> */}
-                        <a href="https://thinkxcloud.com/billing/cart.php?a=confproduct&i=1"  >
+                        <a href="https://thinkxcloud.com/billing/index.php?rp=/store/vps-hosting"  >
                             Check Out
                         </a>
                     </h1>
@@ -110,7 +110,7 @@ function VpsCards() {
                                       >
                                              Check Out
                                       </a> */}
-                            <a href="https://thinkxcloud.com/billing/cart.php?a=confproduct&i=2" >
+                            <a href="https://thinkxcloud.com/billing/index.php?rp=/store/vps-hosting" >
                                 Check Out
                             </a>
 
@@ -152,9 +152,9 @@ function VpsCards() {
                                   >
                                          Check Out
                                   </a> */}
-                            <Link to={{ pathname: "https://thinkxcloud.com/billing/cart.php?a=confproduct&i=3" }} target="_blank">
+                            <a href= "https://thinkxcloud.com/billing/index.php?rp=/store/vps-hosting" >
                                 Check Out
-                            </Link>
+                            </a>
                         </h1>
                     </div>
                 </article>
