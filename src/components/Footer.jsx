@@ -24,12 +24,9 @@ function Footer() {
                                         <br />
                                         
                                         <span className="flex items-center ">
-                                            Call: (256) 760137160
+                                            Call: +256(0)393255008 / +256702813986
                                         </span>
-                                        <span className="flex items-center ">
-                                            Whatsapp:
-                                            (256) 760137160
-                                        </span>
+
 
 
                                     </p>
@@ -54,6 +51,13 @@ function Footer() {
                                             href="https://twitter.com/thinkxcloud" target="_blank"
                                             className="flex items-center justify-center h-12 w-12 mx-1 rounded-full fab cursor-pointer 
                                             fill-current text-white text-xl fa-twitter"></a>
+                                            <a
+                        style={{ backgroundColor: "#4CCA5A" }}
+                        href="https://wa.me/256772093837"
+                        target="_blank"
+                        className="flex items-center justify-center h-12 w-12 mx-1 rounded-full fab cursor-pointer 
+                                            fill-current text-white text-xl fa-whatsapp ml-2"
+                      ></a>
                                     </div>
                                 </div>
                                 <div className="w-full lg:w-1/2 lg:flex lg:px-6 ">
