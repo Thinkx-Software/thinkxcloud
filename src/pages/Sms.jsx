@@ -8,6 +8,7 @@ import TextComponent from '../components/TextComponent';
 import Fade from 'react-reveal/Fade';
 import { smsdata } from '../fakeData/smsdata';
 import HostingServices from '../components/HostingServices';
+import BuyFrom  from "../components/BuyFrom";
 
 function Sms() {
     const isMobile = useCheckMobile()
@@ -29,6 +30,11 @@ function Sms() {
             <HostingServices data={smsdata} />
 
             </div>
+
+            {/*buy from */}
+            <BuyFrom/>
+
+            {/*buy from */}
 
 
 
