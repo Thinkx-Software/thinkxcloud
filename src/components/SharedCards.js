@@ -9,8 +9,8 @@ function SharedCards() {
                 <h5 className="font-bold text-base">Planet</h5>
                 <h3 className="pb-4 flex justify-center font-bold border-b border-gray-300">
                     <span className="text-xl mt-6 mr-1">shs</span>
-                    <span className="text-5xl">30,000</span>
-                    <span className="text-xl mt-6 mr-1">/year</span>
+                    <span className="text-5xl">10,000</span>
+                    <span className="text-xl mt-6 mr-1">/month</span>
                 </h3>
                 <ul className="text-sm font-bold">
                     <li className="pt-4 pb-4 border-b border-gray-300 font-bold">1 GB Disk Space SSD</li>
@@ -40,8 +40,8 @@ function SharedCards() {
                 <h5 class="font-bold text-3xl">Star</h5>
                 <h2 class="flex justify-center pb-4 font-bold border-b border-gray-200">
                     <span className="text-3xl mt-6 mr-1">shs</span
-                    ><span className="text-5xl">60,000</span>
-                    <span className="text-xl mt-6 mr-1">/year</span>
+                    ><span className="text-5xl">20,000</span>
+                    <span className="text-xl mt-6 mr-1">/month</span>
                 </h2>
                 <ul class="text-sm font-bold">
                     <li className="pt-4 pb-4 border-b border-gray-300 font-bold">3 GB Disk Space SSD</li>
@@ -76,11 +76,12 @@ function SharedCards() {
                         className="font-bold pb-4 mt-2 border-b border-gray-100 flex justify-center"
                     >
                         <span className="text-xl mt-6 mr-1">shs</span
-                        ><span className="text-5xl ">80,000</span>
-                        <span className="text-xl mt-6 mr-1">/year</span>
+                        ><span className="text-5xl ">50,000</span>
+                        <span className="text-xl mt-6 mr-1">/month</span>
                     </h2>
                     <ul className=" text-sm font-bold">
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">5 GB Disk Space SSD</li>
+                        <li className="pt-4 pb-4 border-b border-gray-300 font-bold">Free Domain Name</li>
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">25 Emails</li>
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">3 Websites</li>
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">5 sub domians</li>
@@ -115,10 +116,11 @@ function SharedCards() {
                     >
                         <span className="text-xl mt-6 mr-1">shs</span
                         ><span className="text-5xl ">100,000</span>
-                        <span className="text-xl mt-6 mr-1">/year</span>
+                        <span className="text-xl mt-6 mr-1">/month</span>
                     </h2>
                     <ul className=" text-sm font-bold">
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">10 GB Disk Space SSD</li>
+                        <li className="pt-4 pb-4 border-b border-gray-300 font-bold">Free Domain Name</li>
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">50 Emails</li>
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">4 Websites</li>
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">10 sub domians</li>
