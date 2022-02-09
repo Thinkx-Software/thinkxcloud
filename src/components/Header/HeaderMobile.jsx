@@ -9,6 +9,7 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import DomainIcon from '@material-ui/icons/Domain';
 import StorageIcon from '@material-ui/icons/Storage';
 import LockIcon from '@material-ui/icons/Lock';
+import SmsIcon from '@material-ui/icons/Sms';
 
 const HeaderMobile = ({ toggleMenu, setToggleMenu }) => {
   //fix the header
@@ -69,7 +70,7 @@ const HeaderMobile = ({ toggleMenu, setToggleMenu }) => {
 
               </div>
               <div className="mobile__icons">
-                <LockIcon />
+                <SmsIcon />
                 <Link to="/sms" >SMS</Link>
 
               </div>
