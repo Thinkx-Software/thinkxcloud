@@ -68,6 +68,11 @@ const HeaderMobile = ({ toggleMenu, setToggleMenu }) => {
                 <Link to="/ssl" >SSL</Link>
 
               </div>
+              <div className="mobile__icons">
+                <LockIcon />
+                <Link to="/sms" >SMS</Link>
+
+              </div>
 
             </li>
 

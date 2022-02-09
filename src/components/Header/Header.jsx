@@ -35,6 +35,10 @@ const Header = () => {
 
           </li>
           <li>
+            <Link to="/sms">SMS</Link>
+
+          </li>
+          <li>
             <a href="https://thinkxcloud.com/billing/cart.php?a=add&domain=registers"
 
 

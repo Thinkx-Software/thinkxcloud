@@ -1,40 +1,19 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { Link } from "react-router-dom";
 import Fade from 'react-reveal/Fade';
 import { ssldata } from '../fakeData/ssldata';
 import HostingServices from '../components/HostingServices';
 import TextComponent from '../components/TextComponent';
 import SSLCards from '../components/SSLCards';
-import { useMediaQuery } from "react-responsive";
 import HeaderMobile from '../components/Header/HeaderMobile';
 import Header from '../components/Header/Header';
 import {Helmet} from "react-helmet";
+import useCheckMobile from "../customHooks/useCheckMobile"
+
 
 function SSL() {
-    const isDesktopOrLaptop = useMediaQuery({
-        query: '(min-device-width: 1224px)'
-    })
-    const isBigScreen = useMediaQuery({ query: '(min-device-width: 1824px)' })
-    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-    const isTabletOrMobileDevice = useMediaQuery({
-        query: '(max-device-width: 1224px)'
-    })
+     const isMobile = useCheckMobile()
 
-    useEffect(() => {
-        if (isTabletOrMobile || isTabletOrMobileDevice) {
-            setIsMobile(true)
-        }
-        else {
-            setIsMobile(false)
-        }
-
-
-    }, [isDesktopOrLaptop, isBigScreen, isTabletOrMobileDevice, isTabletOrMobile])
-
-    //create mobile view
-    const [isMobile, setIsMobile] = useState(false)
-
-    //add clickable buttons
     const [toggleMenu, setToggleMenu] = useState(true)
     return (
         <div>

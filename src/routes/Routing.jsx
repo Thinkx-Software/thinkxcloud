@@ -9,6 +9,7 @@ import VPSHosting from '../pages/VPSHosting';
 import SSL from '../pages/SSL';
 import NotFound from '../pages/NotFound';
 import { useMediaQuery } from "react-responsive";
+import Sms from '../pages/Sms';
 
 function Routing() {
 
@@ -33,6 +34,11 @@ function Routing() {
                     <Route path="/ssl">
                         <SSL />
                     </Route>
+                    <Route path="/sms">
+                        <Sms/>
+
+                    </Route>
+
 
                     <Route path="*">
                         <NotFound />

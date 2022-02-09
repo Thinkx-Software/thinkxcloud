@@ -6,39 +6,14 @@ import ChooseUs from '../../components/ChooseUs';
 import Rotate from 'react-reveal/Rotate';
 import VpsCards from '../../components/VpsCards';
 import WorkingSection from '../../components/WorkingSection';
-import { useMediaQuery } from "react-responsive";
 import Header from '../../components/Header/Header';
 import HeaderMobile from '../../components/Header/HeaderMobile';
-
+import useCheckMobile from "../../customHooks/useCheckMobile"
 
 
 function Homepage() {
-    const isDesktopOrLaptop = useMediaQuery({
-        query: '(min-device-width: 1224px)'
-    })
-    const isBigScreen = useMediaQuery({ query: '(min-device-width: 1824px)' })
-    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-    const isTabletOrMobileDevice = useMediaQuery({
-        query: '(max-device-width: 1224px)'
-    })
-
-    useEffect(() => {
-        if (isTabletOrMobile || isTabletOrMobileDevice) {
-            setIsMobile(true)
-        }
-        else {
-            setIsMobile(false)
-        }
-
-
-    }, [isDesktopOrLaptop, isBigScreen, isTabletOrMobileDevice, isTabletOrMobile])
-
-    //create mobile view
-    const [isMobile, setIsMobile] = useState(false)
-
-    //add clickable buttons
+    const isMobile = useCheckMobile()
     const [toggleMenu, setToggleMenu] = useState(true)
-
 
     return (
         <div >
