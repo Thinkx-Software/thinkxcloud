@@ -18,8 +18,8 @@ export const smsdata = [
         id: 1,
         icon: "person",
         color: "green",
-        title: "Person",
-        children: "Deploy the most cost-effective messaging solution trusted by fast growing brands"
+        title: "People",
+        children: "Send customized and bulky messages to your loved ones at very low cost with our messaging services "
     },
 
 ]
