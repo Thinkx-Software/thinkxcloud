@@ -10,7 +10,7 @@ function SharedCards() {
                 <h3 className="pb-4 flex justify-center font-bold border-b border-gray-300">
                     <span className="text-xl mt-6 mr-1">shs</span>
                     <span className="line-through">10,000</span>
-                    <span className="text-3xl">5,000</span>''
+                    <span className="text-3xl">5,000</span>
                     <span className="text-xl mt-6 mr-1">/month</span>
                 </h3>
                 <ul className="text-sm font-bold">
@@ -43,7 +43,7 @@ function SharedCards() {
                     <span className="text-3xl mt-6 mr-1">shs</span
                     >
                     <span className="line-through">20,000</span>
-                    <span className="text-3xl">10,000</span>'
+                    <span className="text-3xl">10,000</span>
                     <span className="text-xl mt-6 mr-1">/month</span>
                 </h2>
                 <ul class="text-sm font-bold">
