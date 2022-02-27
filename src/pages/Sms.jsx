@@ -22,7 +22,7 @@ function Sms() {
                 isMobile ? <HeaderMobile toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
                     : <Header />
             }
-            <HeroCard/>
+            <HeroCard link={"https://sms.thinkxsoftware.com/smsdashboard/login.php"}/>
             <Fade right cascade>
                 <TextComponent type="Sms Integration" text="Who can use SMS ?" />
             </Fade>
@@ -32,7 +32,7 @@ function Sms() {
             </div>
 
             {/*buy from */}
-            <BuyFrom/>
+            {/* <BuyFrom/> */}
 
             {/*buy from */}
 
