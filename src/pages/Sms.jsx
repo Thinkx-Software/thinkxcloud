@@ -8,7 +8,7 @@ import TextComponent from '../components/TextComponent';
 import Fade from 'react-reveal/Fade';
 import { smsdata } from '../fakeData/smsdata';
 import HostingServices from '../components/HostingServices';
-import BuyFrom  from "../components/BuyFrom";
+
 
 function Sms() {
     const isMobile = useCheckMobile()
@@ -22,21 +22,16 @@ function Sms() {
                 isMobile ? <HeaderMobile toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
                     : <Header />
             }
-            <HeroCard link={"https://sms.thinkxsoftware.com/smsdashboard/login.php"}/>
+            <HeroCard 
+            registerLink={"https://sms.thinkxsoftware.com/smsdashboard/register.php"} 
+            loginLink={"https://sms.thinkxsoftware.com/smsdashboard/login.php"}
+            />
             <Fade right cascade>
                 <TextComponent type="Sms Integration" text="Who can use SMS ?" />
             </Fade>
             <div className='my-2 mb-5'>
             <HostingServices data={smsdata} />
-
             </div>
-
-            {/*buy from */}
-            {/* <BuyFrom/> */}
-
-            {/*buy from */}
-
-
 
     </div>
   )

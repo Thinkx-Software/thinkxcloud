@@ -1,8 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import { Link } from "react-router-dom";
 
-function HeroCard({text , _link , link_text, image_url}) {
+function HeroCard({text , registerLink , loginLink}) {
   return (
     <div className="flex md:flex-row items-center md:justify-evenly m-4 flex-col z-5">
     <Fade left cascade>
@@ -12,12 +11,18 @@ function HeroCard({text , _link , link_text, image_url}) {
             <p className="md:my-7 md:mx-4 m-2 md:break-all font-light leading-loose">
                
                 Easily engage your customers anywhere.
-               Connect and verify customers seamlessly across  sms at an affordable price around Kampala
+               Connect with your customers through  sms at an affordable price around Kampala
             </p>
             <div className="m-4">
                 <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                   hover:bg-blue-700 hover:text-white">
-                    <Link to="/sms">Start Now</Link>
+                    <a href={registerLink}>Sign Up</a>
+                </h1>
+            </div>
+            <div className="m-4">
+                <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
+                  hover:bg-blue-700 hover:text-white">
+                    <a href={loginLink}>Sign In</a>
                 </h1>
             </div>
 
