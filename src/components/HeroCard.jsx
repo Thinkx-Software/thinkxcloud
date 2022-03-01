@@ -10,21 +10,22 @@ function HeroCard({text , registerLink , loginLink}) {
             <h className="md:text-7xl text-purple-800 text-4xl text-center font-bold">SMS INTEGRATION</h>
             <p className="md:my-7 md:mx-4 m-2 md:break-all font-light leading-loose">
                
-                Easily engage your customers anywhere.
-               Connect with your customers through  sms at an affordable price around Kampala
+            Send and receive text messages globally using our SMS Platform as well our SMS  APIs.
+            Enabling you to get your messages to the right customers, at the
+           right time.
             </p>
             <div className="m-4">
-                <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
-                  hover:bg-blue-700 hover:text-white">
-                    <a href={registerLink}>Sign Up</a>
+                <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center  w-48 text-gray-900 bg-blue-700
+                  hover:bg-blue-500 hover:text-white">
+                    <a href={registerLink} class="text-white">Get Started. Its Free </a>
                 </h1>
             </div>
-            <div className="m-4">
+            {/* <div className="m-4">
                 <h1 className="md:ml-5 rounded-full  p-2 cursor-pointer text-center w-48 text-gray-900 bg-gray-200
                   hover:bg-blue-700 hover:text-white">
                     <a href={loginLink}>Sign In</a>
                 </h1>
-            </div>
+            </div> */}
 
         </div>
 
