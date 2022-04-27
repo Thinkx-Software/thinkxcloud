@@ -17,9 +17,15 @@ function SSL() {
     const [toggleMenu, setToggleMenu] = useState(true)
     return (
         <div>
-             <Helmet> <title>SSL - thinkxcloud.com</title>
+             <Helmet> <title>SSL - Most Secure and Cheap SSL in Uganda</title>
+             
       <meta name="description" content="Our ssl we secure your website visotrs from man in the middle attack, Leading SSL providers trusted" />
     </Helmet>
+    <Helmet>
+    <meta name="keywords" content="Secure Website In uganda, Host with Free SLL, Affordable SSL"></meta>
+
+    </Helmet>
+             
             {
                 isMobile ? <HeaderMobile toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
                     : <Header />

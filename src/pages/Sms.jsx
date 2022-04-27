@@ -16,7 +16,7 @@ function Sms() {
   const [toggleMenu, setToggleMenu] = useState(true)
   return (
     <div>
-      <Helmet> <title>SMS - thinkxcloud.com</title>
+      <Helmet> <title>SMS - Cheapest Bulk SMS Api In Uganda</title>
         <meta name="description" content="We sell you sms at a very affordable price " />
       </Helmet>
       {

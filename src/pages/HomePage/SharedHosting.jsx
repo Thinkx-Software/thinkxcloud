@@ -38,8 +38,16 @@ function SharedHosting() {
     const [toggleMenu, setToggleMenu] = useState(true)
     return (
         <div>
-                        <Helmet> <title>Shared Hosting - thinkxcloud.com</title>
+                        <Helmet> <title>Shared Hosting - The Ultimate web hosting company In Uganda</title>
       <meta name="description" content="From as low as UGX 30,000 a year host with us" />
+    </Helmet>
+    <Helmet>
+    <meta name="keywords" content="Most reliable web hosting, Secure Web hosting In uganda, Kampala best web hosting"></meta>
+
+    </Helmet>
+    <Helmet>
+    <meta name="keywords" content=""></meta>
+
     </Helmet>
             {
                 isMobile ? <HeaderMobile toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
@@ -47,9 +55,9 @@ function SharedHosting() {
             }
             <HostingSection type="Shared Hosting"
                 text="
-                     We make it  easy to lanch your site with great customer support.
+                     We make it  easy to launch your website with great customer support.
                      With our prices you can always find a suitable shared web hosting package.
-                     We have an opt out option with money back guarantee within 30 days no other
+                     We have an opt out option with money back guarantee within 30 days
                      "
                 image="/assets/shared.jpg"
             />
