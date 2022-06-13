@@ -86,7 +86,7 @@ function Homepage() {
             <Rotate top right cascade>
                 <div className="flex flex-col items-center mb-12">
                     <h2 className="text-3xl text-primary-normal font-bold">VPS Hosting</h2>
-                    <p className="text-base">Get started with VPS hsoting at affordable price</p>
+                    <p className="text-base">Get started with VPS hosting at affordable price</p>
 
                 </div>
 
