@@ -10,15 +10,21 @@ function SharedCards() {
                 <h3 className="pb-4 flex justify-center font-bold border-b border-gray-300">
                     <span className="text-xl mt-6 mr-1">shs</span>
                     <span className="line-through">120,000</span>
-                    <span className="text-3xl">60,000</span>
+                    <span className="text-3xl">47,000</span>
                     <span className="text-xl mt-6 mr-1">/year</span>
                 </h3>
+                <p className="pt-4 pb-4 bg-yellow-900 text-white border-b border-gray-300 font-bold">Save upto 60%</p>
+                 
                 <ul className="text-sm font-bold">
-                    <li className="pt-4 pb-4 border-b border-gray-300 font-bold">1 GB Disk Space SSD</li>
-                    <li className="pt-3 pb-4 border-b border-gray-300 font-bold">2 Emails</li>
+                    <li className="pt-4 pb-4 border-b border-gray-300 font-bold">2 GB Disk Space SSD</li>
+
+                    <li className="pt-4 bg-red-700 pb-4 text-white border-b border-gray-300 font-bold">Free SSl</li>
+                    <li className="pt-3 pb-4 border-b border-gray-300 font-bold">100 Email Accounts</li>
+
                     <li className="pt-4 pb-4 border-b border-gray-300 font-bold">1 Website</li>
                     <li className="pt-4 pb-4 border-b border-gray-300 font-bold">3 sub domains</li>
                     <li className="pt-4 pb-4 border-b border-gray-300 font-bold">24/7 support</li>
+                    <li className="pt-4 pb-4 border-b border-gray-300 font-bold">includes cpanel</li>
 
                 </ul>
                 <div
@@ -46,13 +52,16 @@ function SharedCards() {
                     <span className="text-3xl">100,000</span>
                     <span className="text-xl mt-6 mr-1">/year</span>
                 </h2>
+                <p className="pt-4 pb-4 bg-yellow-900 text-white border-b border-gray-300 font-bold">Save upto 50%</p>
                 <ul class="text-sm font-bold">
-                    <li className="pt-4 pb-4 border-b border-gray-300 font-bold">3 GB Disk Space SSD</li>
-                    <li className="pt-4 pb-4 border-b border-gray-300 font-bold">15 Emails</li>
+                    <li className="pt-4 pb-4 border-b border-gray-300 font-bold">5 GB Disk Space SSD</li>
+                      
+                    <li className="pt-4 bg-red-700 pb-4 text-white border-b border-gray-300 font-bold">Free SSl</li>
+                    <li className="pt-3 pb-4 border-b border-gray-300 font-bold">150 Email Accounts</li>
                     <li className="pt-4 pb-4 border-b border-gray-300 font-bold">2 Websites</li>
                     <li className="pt-4 pb-4 border-b border-gray-300 font-bold">5 sub domians</li>
-
                     <li className="pt-4 pb-4 border-b border-gray-300 font-bold">24/7 support</li>
+                    <li className="pt-4 pb-4 border-b border-gray-300 font-bold">includes cpanel</li>
                 </ul>
                 <div
                     className=" uppercase text-center m-2"
@@ -84,14 +93,17 @@ function SharedCards() {
                         <span className="text-3xl">300,000</span>
                         <span className="text-xl mt-6 mr-1">/year</span>
                     </h2>
+                    <p className="pt-4 pb-4 bg-yellow-900 text-white border-b border-gray-300 font-bold">Save upto 50%</p>
+
                     <ul className=" text-sm font-bold">
-                        <li className="pt-4 pb-4 border-b border-gray-300 font-bold">5 GB Disk Space SSD</li>
+                        <li className="pt-4 pb-4 border-b border-gray-300 font-bold">8 GB Disk Space SSD</li>
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">Free Domain Name</li>
-                        <li className="pt-4 pb-4 border-b border-gray-300 font-bold">25 Emails</li>
+                        <li className="pt-3 pb-4 border-b border-gray-300 font-bold">200 Email Accounts</li>
+                        <li className="pt-4 bg-red-700 pb-4 text-white border-b border-gray-300 font-bold">Free SSl</li>
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">3 Websites</li>
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">5 sub domians</li>
-
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">24/7 support</li>
+                        <li className="pt-4 pb-4 border-b border-gray-300 font-bold">includes cpanel</li>
                     </ul>
                     <div
                         className=" uppercase text-center m-2"
@@ -124,14 +136,17 @@ function SharedCards() {
                         <span className="text-3xl">400,000</span>
                         <span className="text-xl mt-6 mr-1">/year</span>
                     </h2>
+                    <p className="pt-4 pb-4 bg-yellow-900 text-white border-b border-gray-300 font-bold">Save upto 50%</p>
+
                     <ul className=" text-sm font-bold">
-                        <li className="pt-4 pb-4 border-b border-gray-300 font-bold">10 GB Disk Space SSD</li>
+                        <li className="pt-4 pb-4 border-b border-gray-300 font-bold">20 GB Disk Space SSD</li>
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">Free Domain Name</li>
-                        <li className="pt-4 pb-4 border-b border-gray-300 font-bold">50 Emails</li>
+                        <li className="pt-3 pb-4 border-b border-gray-300 font-bold">400 Email Accounts</li>
+                        <li className="pt-4 bg-red-700 pb-4 text-white border-b border-gray-300 font-bold">Free SSl</li>
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">4 Websites</li>
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">10 sub domians</li>
-
                         <li className="pt-4 pb-4 border-b border-gray-300 font-bold">24/7 support</li>
+                        <li className="pt-4 pb-4 border-b border-gray-300 font-bold">includes cpanel</li>
                     </ul>
                     <div
                         className=" uppercase text-center m-2"
