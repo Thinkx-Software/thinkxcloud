@@ -1,6 +1,6 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 
 function VpsCards() {
