@@ -1,5 +1,5 @@
 import React from 'react'
-import { Face } from "@heroicons/react/outline"
+//import { Face } from "@heroicons/react/outline"
 function Footer() {
     return (
 
