@@ -26,10 +26,10 @@ const Header = () => {
             <Link to="/sharedhosting"> Shared Hosting</Link>
 
           </li>
-          <li>
+          {/* <li>
             <Link to="/vpshosting">VPS Hosting</Link>
 
-          </li>
+          </li> */}
           <li>
             <Link to="/ssl">SSL</Link>
 

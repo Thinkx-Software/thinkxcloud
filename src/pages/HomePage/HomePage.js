@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import SharedCards from "../../components/SharedCards";
 import { Link } from "react-router-dom";
 import ChooseUs from '../../components/ChooseUs';
-import Rotate from 'react-reveal/Rotate';
-import VpsCards from '../../components/VpsCards';
 import WorkingSection from '../../components/WorkingSection';
 import Header from '../../components/Header/Header';
 import HeaderMobile from '../../components/Header/HeaderMobile';
@@ -83,15 +81,15 @@ function Homepage() {
             {/*pricing */}
 
             {/*vps */}
-            <Rotate top right cascade>
+            {/* <Rotate top right cascade>
                 <div className="flex flex-col items-center mb-12">
                     <h2 className="text-3xl text-primary-normal font-bold">VPS Hosting</h2>
                     <p className="text-base">Get started with VPS hosting at affordable price</p>
 
                 </div>
 
-            </Rotate>
-            <VpsCards />
+            </Rotate> */}
+            {/* <VpsCards /> */}
 
             {/*vps */}
 

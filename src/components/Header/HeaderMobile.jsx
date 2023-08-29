@@ -56,13 +56,13 @@ const HeaderMobile = ({ toggleMenu, setToggleMenu }) => {
               </div>
 
             </li>
-            <li>
+            {/* <li>
               <div className="mobile__icons">
                 < StorageIcon />
                 <Link to="/vpshosting" >VPS Hosting</Link>
               </div>
 
-            </li>
+            </li> */}
             <li>
               <div className="mobile__icons">
                 <LockIcon />
